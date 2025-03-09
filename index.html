@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORNECE+</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="date" id="current-date"></div>
+    <div class="container">
+        <h1>FORNECE+</h1>
+        <h2>Recrutamento de Estagiários</h2>
+        <p>Clique nos botões abaixo para interagir</p>
+        <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLScHOh7FEwazHmLunmfbjtXxaOkV6ssEL3N4Ni55ZZRlve5itw/viewform?usp=header'">Inscrição</button>
+        <button onclick="openModal()">Edital</button>
+    </div>
+    <div class="contact">
+        <p><strong>CONTATO</strong></p>
+        <p>Telefone: 919 8808-0225</p>
+        <p>E-mail: wagnerespiritosanto@icloud.com</p>
+    </div>
+
+    <!-- Modal de Edital -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>EDITAL</h2>
+            <p>Aqui está o conteúdo do edital ou um link para o PDF do edital.</p>
+            <a href="https://link-do-seu-edital.pdf" target="_blank">Baixar Edital (PDF)</a>
+        </div>
+    </div>
+</body>
+</html>
